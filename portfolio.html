@@ -7,6 +7,7 @@
   <title>Портфолио</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/portfolio.css">
 </head>
@@ -17,8 +18,8 @@
   <!--Шапка-->
   <header class="page-header">
     <nav>
-      <a href="">
-        <span class="logo-blue">Web</span><span class="logo-black">Studio</span>
+      <a href="" class="logo">
+        Web<span class="logo-header">Studio</span>
       </a>
       <ul class="site-nav list">
         <li><a href="./index.html" class="link">Студия</a></li>
@@ -32,12 +33,12 @@
       <li><a href="phone-to:" class="link">+38096 111 11 11</a></li>
     </ul>
   </header>
-<!-- Основной блок -->
+<!-- main block -->
 <main>
-  <!-- Скрытый заголовок -->
   <section>
-    <h1 style="display: none;">Портфолио</h1>
-    <!-- Кнопки фильтра -->
+      <!-- hidden header -->
+    <h1 class="visually-hidden">Портфолио</h1>
+    <!-- Filter button list -->
       <ul class="filter-buttons">
         <li><button type="button" class="filter-name">Все</button>
         </li>
@@ -50,16 +51,11 @@
         <li><button type="button" class="filter-name">Маркетинг</button>
         </li>
       </ul>
-  </section>
   <!-- Портфолио - a( img, p, h3,p)-->
-  <section class="portfolio-card">
     <ul class="card-list">
       <li class="card">
             <a href="">
               <img src="./img/texno.jpg" alt="macbook">
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis.
-              </p>
               <h3 class="card-header">Технокряк</h3>
               <p class="filter-name">Веб-сайт</p>
           </a>
@@ -67,9 +63,6 @@
       <li class="card">
         <a href="">
           <img src="./img/basket.jpg" alt="Постер New Orlean vs Golden Star">
-          <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis.
-          </p>
           <h3 class="card-header">Постер New Orlean vs Golden Star</h3>
           <p class="filter-name">Дизайн</p>
         </a>
@@ -77,9 +70,6 @@
       <li class="card">
         <a href="">
           <img src="./img/seafood.jpg" alt="restaurant seafood">
-          <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis.
-          </p>
           <h3 class="card-header">Ресторан Seafood</h3>
           <p class="filter-name">Приложение</p>
         </a>
@@ -87,9 +77,6 @@
       <li class="card">
         <a href="">
           <img src="./img/headphones.jpg" alt="headphones">
-          <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis.
-          </p>
           <h3 class="card-header">Проект Prime</h3>
           <p class="filter-name">Маркетинг</p>
         </a>
@@ -97,9 +84,6 @@
       <li class="card">
         <a href="">
           <img src="./img/boxes.jpg" alt="boxes">
-          <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis.
-          </p>
           <h3 class="card-header">Проект Boxes</h3>
           <p class="filter-name">Приложение</p>
         </a>
@@ -107,9 +91,6 @@
       <li class="card">
         <a href="">
           <img src="./img/tv.jpg" alt="imac">
-          <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis.
-          </p>
           <h3 class="card-header">Inspiration has no Borders</h3>
           <p class="filter-name">Веб-сайт</p>
         </a>
@@ -117,9 +98,6 @@
       <li class="card">
         <a href="">
           <img src="./img/book.jpg" alt="book">
-          <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis.
-          </p>
           <h3 class="card-header">Издание Limited Edition</h3>
           <p class="filter-name">Дизайн</p>
         </a>
@@ -127,9 +105,6 @@
       <li class="card">
         <a href="">
           <img src="./img/label.jpg" alt="label">
-          <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis.
-          </p>
           <h3 class="card-header">Проект LAB</h3>
           <p class="filter-name">Маркетинг</p>
         </a>
@@ -137,9 +112,6 @@
       <li class="card">
         <a href="">
           <img src="./img/macbook.jpg" alt="grey macbook">
-          <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis.
-          </p>
           <h3 class="card-header">Growing Business</h3>
           <p class="filter-name">Приложение</p>
         </a>
@@ -149,12 +121,12 @@
 </main>
   <!--Footer-->
   <footer class="footer">
-    <a href="">
-      <span class="logo-blue">Web</span><span class="logo-white">Studio</span>
+    <a href="" class="logo">
+      Web<span class="logo-footer">Studio</span>
     </a>
     <ul class="footer-list">
       <li>
-        <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
+        <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
       </li>
       <li><a href="mail-to:" class="link">info@devstudio.com</a></li>
       <li><a href="phone-to:" class="link">+38096 111 11 11</a></li>
